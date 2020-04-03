@@ -1,15 +1,11 @@
-# TensorFlow Models
-
-This repository contains a number of different models implemented in [TensorFlow](https://www.tensorflow.org):
-
-The [official models](official) are a collection of example models that use TensorFlow 2's high-level APIs. They are intended to be well-maintained, tested, and kept up to date with the latest stable TensorFlow API. They should also be reasonably optimized for fast performance while still being easy to read. We especially recommend newer TensorFlow users to start here.
-
-The [research models](https://github.com/tensorflow/models/tree/master/research) are a large collection of models implemented in TensorFlow by researchers. They are not officially supported or available in release branches; it is up to the individual researchers to maintain the models and/or provide support on issues and pull requests.
-
-## Contribution guidelines
-
-If you want to contribute to models, be sure to review the [contribution guidelines](CONTRIBUTING.md).
-
-## License
-
-[Apache License 2.0](LICENSE)
+This a gui application which is used for Auto labeling images.
+In this application we can select the Folder Destiantion which contains image, model which we want to apply as well as the object detection threshold.
+in my application i have used 4 models
+these are:
+	1.faster_rcnn_inception_v2_coco_2018_01_28
+	2.ssd_inception_v2_coco_2017_11_17
+	3.ssd_mobilenet_v1_coco_2018_01_28
+	4.ssd_resnet50_v1_fpn_shared_box_predictor_640x640_coco14_sync_2018_07_03
+These 4 model can be found on tensorflow model Zoo
+Website - https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
+To run the application just run the application.ipynb
